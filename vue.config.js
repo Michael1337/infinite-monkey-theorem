@@ -1,4 +1,5 @@
 module.exports = {
+  publicPath: '/infinite-monkey-theorem/',
   chainWebpack: config => {
     config.module
       .rule('raw')
